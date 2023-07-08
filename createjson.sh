@@ -3,18 +3,18 @@
 
 #modify values below
 #leave blank if not used
-maintainer="emiferpro" #ex: Lup Gabriel (gwolfu)
+maintainer="RndwnZan" #ex: Lup Gabriel (gwolfu)
 oem="Xiaomi" #ex: OnePlus
 device="viva" #ex: guacamole
 devicename="Redmi Note 11 Pro 4G" #ex: OnePlus 7 Pro
-zip="risingOS-v1.1-Babylon-202306222227-viva-CORE-COMMUNITY.zip" #ex: crDroidAndroid-<android version>-<date>-<device codename>-v<ricedroid version>.zip
+zip="evolution_viva-ota-tq3a.230705.001.b4-07071909-community-unsigned.zip" #ex: crDroidAndroid-<android version>-<date>-<device codename>-v<ricedroid version>.zip
 buildtype="Weekly" #choose from Testing/Alpha/Beta/Weekly/Monthly
 forum="https://t.me/vivaaosp" #https link (mandatory)
 gapps="" #https link (leave empty if unused)
 firmware="" #https link (leave empty if unused)
 modem="" #https link (leave empty if unused)
 bootloader="" #https link (leave empty if unused)
-recovery="https://github.com/Emiferpro/releases/releases/download/'$timestamp'/boot.img" #https link (leave empty if unused)
+recovery="https://github.com/RndwnZ/releases/releases/download/'$timestamp'/boot.img" #https link (leave empty if unused)
 paypal="" #https link (leave empty if unused)
 telegram="https://t.me/vivaaosp" #https link (leave empty if unused)
 dt="https://github.com/xiaomi-mt6781-devs/android_device_xiaomi_viva" #https://github.com/ricedroidandroid/android_device_<oem>_<device_codename>
@@ -49,7 +49,7 @@ echo '{
         "oem": "'$oem'",
         "device": "'$devicename'",
         "filename": "'$zip_only'",
-        "download": "https://github.com/Emiferpro/releases/releases/download/'$timestamp'/'$zip_only'",
+        "download": "https://github.com/RndwnZ/releases/releases/download/'$timestamp'/'$zip_only'",
         "timestamp": '$timestamp',
         "md5": "'$md5'",
         "sha256": "'$sha256'",
@@ -61,7 +61,7 @@ echo '{
         "firmware": "'$firmware'",
         "modem": "'$modem'",
         "bootloader": "'$bootloader'",
-        "recovery": "https://github.com/Emiferpro/releases/releases/download/'$timestamp'/boot.img",
+        "recovery": "https://github.com/RndwnZ/releases/releases/download/'$timestamp'/boot.img",
         "paypal": "'$paypal'",
         "telegram": "'$telegram'",
         "dt": "'$dt'",
